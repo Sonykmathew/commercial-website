@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rover home page </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.cdnfonts.com/css/romeo-bohemian" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav class="navbar fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="./webpage.html">roVeR</a>
+
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">MEN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">WOMEN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT US</a>
+      </li>
+      <button type="button" class="btn btn-primary cart-button">
+        <a href="./cart.html">
+          <i class="fa fa-search"></i>
+        </a>
+      </button>
+      <button type="button" class="btn btn-primary cart-button">
+        <a href="./cart.html">
+          <i class="fa fa-shopping-cart"></i>
+        </a>
+      </button>
+
+
+
+    </ul>
+  </nav>
+  <!-- slide -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://img.freepik.com/free-photo/young-man-sunglasses-white-tshirt-posing-isolated-blue-studio-background-neon-light_155003-45792.jpg?w=1060&t=st=1684930851~exp=1684931451~hmac=17f9318d09f500152044dc633ad7a406fb0244871d8adcdbe231468336657f5c"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>MENS</h5>
+          <p>BEST OF ROVER EXCLUSIVE BRANDS</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://img.freepik.com/free-photo/stunning-barefooted-woman-trendy-fur-coat-dancing-laughing-photoshoot_197531-7073.jpg?w=1380&t=st=1684930790~exp=1684931390~hmac=6251ce05bd943d8116313302f7a5d12790aabf4ab1a3d16e36e1d7d9fcaca119"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>WOMEN</h5>
+          <p>BEST OF ROVER EXCLUSIVE BRANDS</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://img.freepik.com/free-photo/happy-kids-girls-isolated-coral-pink_155003-33133.jpg?w=1060&t=st=1684165484~exp=1684166084~hmac=785ad4c5af71645e8a11b051b6552eda58d6de6d1eb99ce71a868475f0cb8228"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>KIDS COLLECTION</h5>
+          <p>BEST OF ROVER EXCLUSIVE BRANDS</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+  <!-- grid  -->
+  <div class="row">
+    <div class="col">
+      <div class="card product-card" style="width: 18rem;">
+        <img
+          src="https://img.freepik.com/free-photo/two-lacing-clothing-foot-object_1172-454.jpg?w=740&t=st=1684165091~exp=1684165691~hmac=38270f5eb613f69483ab5a169de310eb75ddba50ec4b7ccfa699b4274821afe1"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">UGG</h5>
+          <p class="card-text">Neumel BootS</p>
+          <span class="star-width">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </span>
+          <span class="price-cart">
+            <div class="card-offer">$&nbsp;189.99</div>
+            <div class="card-price">$&nbsp;149.99</div>
+            <a href="./cart.html">
+              <div href="./cart.html" class="btn btn-primary">Add&nbsp;Cart</div>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card product-card" style="width: 18rem;">
+        <img
+          src="https://img.freepik.com/free-photo/close-up-man-looking-his-watch_23-2148448847.jpg?w=740&t=st=1684483459~exp=1684484059~hmac=9ada3c8215e33ff432064472afe54c6bda21f35be80d31dff63a409e206cff18"
+          alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reserve</h5>
+          <p class="card-text"> Rochester Wool Melton Coat in Grey</p>
+          <span class="star-width">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </span>
+          <span class="price-cart">
+            <div class="card-offer">$&nbsp;79.99</div>
+            <div class="card-price">$&nbsp;54.99</div>
+            <a href="./cart.html">
+              <div href="./cart.html" class="btn btn-primary">Add&nbsp;Cart</div>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card product-card" style="width: 18rem;">
+        <img
+          src="https://img.freepik.com/free-photo/purple-velvet-sock-boots-close-up-shot_53876-102950.jpg?w=740&t=st=1684165056~exp=1684165656~hmac=e10fc484388e82358ddf710b5453e9ec971966b02504d7dc5ea2355614a30712"
+          alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Seema Veronica Boot</h5>
+          <p class="card-text">purple</p>
+          <span class="star-width">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </span>
+          <span class="price-cart">
+            <div class="card-offer">$&nbsp;479.99</div>
+            <div class="card-price">$&nbsp;379.99</div>
+            <a href="./cart.html">
+              <div href="./cart.html" class="btn btn-primary">Add&nbsp;Cart</div>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card product-card" style="width: 18rem;">
+          <img
+            src="https://img.freepik.com/free-photo/portrait-stylish-man-holding-bag_23-2148634031.jpg?w=740&t=st=1684483416~exp=1684484016~hmac=9bdd226a1bd49b91147ce79a1808f01c1fb119fc0110b7c1873c5b05d927a695"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Columbus </h5>
+            <p class="card-text"> Brown Leather Weekender Bag</p>
+            <span class="star-width">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </span>
+            <span class="price-cart">
+              <div class="card-offer">$&nbsp;459.99</div>
+              <div class="card-price">$&nbsp;439.99</div>
+              <a href="./cart.html">
+                <div href="./cart.html" class="btn btn-primary">Add&nbsp;Cart</div>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card product-card" style="width: 18rem;">
+          <img
+            src="https://img.freepik.com/free-photo/fashion-girl-posing-studio-wearing-smart-casual-sportive-outfit-business-style-sweet-pastel-colors-sunglasses-backpack-denim-jacket-mint-background-stylish-woman_291049-1800.jpg?w=740&t=st=1684483317~exp=1684483917~hmac=d369c68e03268a6192577c79850f1c94823bccb8a604b52991609710f702a68c"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nike</h5>
+            <p class="card-text">Air Force 1</p>
+            <span class="star-width">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </span>
+            <span class="price-cart">
+              <div class="card-offer">$&nbsp;199.99</div>
+              <div class="card-price">$&nbsp;179.99</div>
+              <a href="./cart.html">
+                <div href="./cart.html" class="btn btn-primary">Add&nbsp;Cart</div>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card product-card" style="width: 18rem;">
+          <img
+            src="https://img.freepik.com/free-photo/african-american-woman-belted-white-floral-dress-women-s-fashion-shoot_53876-102194.jpg?w=740&t=st=1684483539~exp=1684484139~hmac=26e57670b79d1cc31afebfe7ab1f918f1e93654149b2367ce6922f45f2383d9d"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tommy Hilfiger</h5>
+            <p class="card-text">Heritage Long top</p>
+            <span class="star-width">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </span>
+            <span class="price-cart">
+              <div class="card-offer">$&nbsp;99.99</div>
+              <div class="card-price">$&nbsp;64.99</div>
+              <a href="./cart.html">
+                <div href="./cart.html" class="btn btn-primary">Add&nbsp;Cart</div>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer-align">
+        <footer class="text-center text-white" style="background-color: #f1f1f1;">
+          <div class="container pt-4">
+            <section class="mb-4">
+              <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="fa fa-facebook"></i></a>
+              <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="fa fa-twitter"></i></a>
+              <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="fa fa-google"></i></a>
+              <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="fa fa-instagram"></i></a>
+              <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="fa fa-linkedin"></i></a>
+              <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="fa fa-github"></i></a>
+            </section>
+          </div>
+          <!-- footer grid -->
+          <div class="row mt-4">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">roVeR</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!"><i class="fas fa-book fa-fw fa-sm me-2"></i>Bestsellers</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="fas fa-book fa-fw fa-sm me-2"></i>Contact us</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="fas fa-user-edit fa-fw fa-sm me-2"></i>About us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Our journey</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>About Us</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="fas fa-backspace fa-fw fa-sm me-2"></i>Founders</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="far fa-file-alt fa-fw fa-sm me-2"></i>Our Team</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="far fa-file-alt fa-fw fa-sm me-2"></i>People</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Need Help</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Service</a>
+                </li>
+                <li>
+                  <a href="#!">QLD Street</a>
+                </li>
+                <li>
+                  <a href="#!">4507</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="fas fa-briefcase fa-fw fa-sm me-2"></i>Call Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Write to us</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!"><i class="fas fa-at fa-fw fa-sm me-2"></i>Help in purchasing</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Check the order
+                    status</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>Join the
+                    newsletter</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- footer grid -->
+          <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-dark">roVeR</a>
+          </div>
+        </footer>
+      </div>
+</body>
+
+</html>
